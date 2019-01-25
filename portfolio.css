@@ -1,0 +1,539 @@
+/* ALGEMENE STYLING*/
+/* ALGEMENE STYLING*/
+/* ALGEMENE STYLING*/
+          @font-face {
+                font-family: Jevee-Black;
+                src: url('Jevee-Black.otf');
+          }
+
+          @font-face {
+                font-family: Jevee-Regular;
+                src: url('Jevee.otf');
+          }
+
+          @font-face {
+                font-family: Jevee-Bold;
+                src: url('Jevee-Bold.otf');
+          }
+
+          * {
+                box-sizing: border-box;
+                font-family: 'Jevee-Regular', sans-serif;
+                line-height: 125%;
+          }
+
+          a {
+                text-decoration: none;
+                color: white;
+          }
+
+          p {
+                text-align: center;
+                font-size: 13.5px;
+                font-family: 'Jevee-Regular', sans-serif;
+          }
+
+          h1 {
+                text-align: center;
+                font-family: 'Jevee-Bold', sans-serif;
+                font-size: 30px;
+                display: block;
+                background-color: black;
+                color: white;
+                padding: 10px;
+                border-radius: 100px;
+          }
+
+          h2 {
+                text-align: center;
+                font-family: 'Jevee-Black', sans-serif;
+                font-size: 18px;
+          }
+
+          hr {
+                width: 25px;
+                color: black;
+                background-color: black;
+                border: 0;
+                border-top: 2px solid black;
+                margin: 15px auto;
+          }
+
+/* HEADER STYLING*/
+/* HEADER STYLING*/
+/* HEADER STYLING*/
+          header {
+                width: 100%;
+                background-color: black;
+                font-family: 'Jevee-Black', sans-serif;
+                font-size: 18px;
+          }
+
+          .navigation {
+                display: block;
+                margin: 0 auto;
+                height: 100%;
+          }
+
+          .logo {
+                display: none;
+          }
+
+          .logosmall {
+                display: block;
+                padding: 15px 25px;
+                margin: 0 auto;
+          }
+
+          .logo img, .logosmall img {
+                display: block;
+                margin: 0 auto;
+          }
+
+          header ul {
+                display: none;
+          }
+
+          .banner {
+                height: 250px;
+                background-image: url(banner.jpg);
+                background-size: 450px;
+                background-position: bottom center;
+                background-repeat: no-repeat;
+          }
+
+          .navigation {
+                top: 0;
+                width: 100%;
+                position: fixed;
+                z-index: 1;
+                background-color: black;
+                height: 50px;
+          }
+
+
+/* MAIN STYLING*/
+/* MAIN STYLING*/
+/* MAIN STYLING*/
+          main {
+                width: 85%;
+                margin: 0 auto;
+          }
+
+          .about, .work, .contact {
+                padding-top: 75px;
+          }
+
+          .ambition, .personality, .competences, .contactkeys, .workall, .description {
+                padding: 40px 0 20px;
+          }
+
+          .about img {
+                display: block;
+                margin: 10px auto 25px auto;
+                height: 75px;
+          }
+
+          .illustrator img, .photoshop img, .indesign img, .lightroom img {
+                height: 65px;
+          }
+
+          .buttonlink {
+                display: block;
+                margin: 20px auto 40px;
+                text-align: center;
+          }
+
+          .button {
+                font-family: 'Jevee-Black', sans-serif;
+                line-height: 100%;
+                font-size: 18px;
+                background-color: black;
+                color: white;
+                border: 3px solid black;
+                padding: 5px 30px;
+                display: inline;
+                text-align: center;
+                border-radius: 100px;
+          }
+
+          .button:hover {
+                background-color: white;
+                color: black;
+                cursor: pointer;
+          }
+
+          .button {
+                transform: perspective(1px) translateZ(0);
+                overflow: hidden;
+                transition-duration: 0.4s;
+                transition-property: color, background-color;
+          }
+
+          .workall {
+                width: 100%;
+                margin: 0 auto;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-gap: 15px;
+          }
+
+          .workelement {
+                width: 100%;
+          }
+
+          .workelement img {
+                width: 100%;
+          }
+
+          .work {
+                padding-bottom: 35px;
+          }
+
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+          .correction {
+                padding: 20px 0;
+          }
+
+          .span {
+                grid-column: 1 / 3;
+          }
+
+          .sitelink {
+                color: black;
+                text-decoration: underline;
+          }
+
+          .nomex {
+                margin-bottom: 15px;
+          }
+
+
+/* FOOTER STYLING*/
+/* FOOTER STYLING*/
+/* FOOTER STYLING*/
+          .footer {
+                width: 100%;
+                background-color: black;
+                color: white;
+                padding: 25px 0;
+                margin: 0 auto;
+          }
+
+          .footer hr {
+                color: white;
+                background-color: white;
+                border-top: 2px solid white;
+          }
+
+          .contactkeysinfo img {
+                display: block;
+                margin: 0 auto;
+                height: 15px;
+                margin: 10px auto;
+          }
+
+          .telephone, .mail {
+                margin-bottom: 25px;
+          }
+
+
+          .contacticons, .footericons {
+                display: inline;
+                width: 100%;
+                margin: auto;
+                align-items: center;
+                text-align: center;
+          }
+
+          .contacticons a, .footericons a {
+                display: inline;
+                width: 100%;
+                margin: 0 auto;
+                align-items: center;
+                text-align: center;
+          }
+
+          .contacticons img, .footericons img {
+                height: 15px;
+                display: inline;
+                margin: 0 auto;
+                align-items: center;
+                text-align: center;
+                margin: 5px 10px;
+          }
+
+          .contacticons .behance, .footericons .behance {
+                height: 13px;
+          }
+
+          .footericonssocial {
+                margin: 25px auto 5px;
+          }
+
+/* BREAKPOINT STYLING 300px*/
+/* BREAKPOINT STYLING 300px*/
+/* BREAKPOINT STYLING 300px*/
+          @media (min-width: 300px) {
+                .logosmall {
+                      display: none;
+                }
+
+                .logo {
+                      display: block;
+                      padding: 12px 35px 18px 35px;
+                      margin: 0 auto;
+                }
+
+                .personalitykeys, .competenceskeys {
+                      display: grid;
+                      grid-template-columns: 1fr 1fr;
+                }
+          }
+
+
+/* BREAKPOINT STYLING 350px*/
+/* BREAKPOINT STYLING 350px*/
+/* BREAKPOINT STYLING 350px*/
+          @media (min-width: 350px) {
+                .workall {
+                      grid-template-columns: 1fr 1fr;
+                }
+          }
+
+/* BREAKPOINT STYLING 450px*/
+/* BREAKPOINT STYLING 450px*/
+/* BREAKPOINT STYLING 450px*/
+          @media (min-width: 450px) {
+                .banner {
+                      height: 350px;
+                      background-size: 690px;
+                }
+
+                .personalitykeys, .competenceskeys {
+                      display: grid;
+                      grid-template-columns: 1fr 1fr 1fr;
+                }
+          }
+
+
+/* BREAKPOINT STYLING 650px*/
+/* BREAKPOINT STYLING 650px*/
+/* BREAKPOINT STYLING 650px*/
+          @media (min-width: 650px) {
+                .banner {
+                      height: 450px;
+                      background-size: 900px;
+                }
+
+                .contactkeysinfo {
+                      display: grid;
+                      grid-template-columns: 1fr 1fr 1fr;
+                }
+
+                .workall {
+                      grid-template-columns: 1fr 1fr 1fr;
+                }
+          }
+
+
+/* BREAKPOINT STYLING 700px*/
+/* BREAKPOINT STYLING 700px*/
+/* BREAKPOINT STYLING 700px*/
+          @media (min-width: 700px) {
+                .header ul {
+                      display: inline;
+                      padding: 15px 35px;
+                      text-align: right;
+
+                }
+
+                .header ul li {
+                      display: inline;
+                      margin-left: 10px;
+                }
+
+                .header ul li {
+                      display: inline;
+                      margin-left: 10px;
+                }
+
+                .header ul li img {
+                      height: 15px;
+                }
+
+                .navigation {
+                      display: grid;
+                      grid-template-columns: 1fr 1fr;
+                }
+
+                .logo, .logo img {
+                      margin: 0;
+                }
+
+                .splitintwo {
+                      display: grid;
+                      grid-template-columns: 1fr 1fr;
+                      grid-gap: 15px;
+                }
+
+                .splitinthree {
+                      display: grid;
+                      grid-template-columns: 1fr 1fr;
+                      grid-gap: 15px;
+                }
+          }
+
+/* BREAKPOINT STYLING 850px*/
+/* BREAKPOINT STYLING 850px*/
+/* BREAKPOINT STYLING 850px*/
+          @media (min-width: 850px) {
+                .workall {
+                      grid-template-columns: 1fr 1fr 1fr 1fr;
+                }
+          }
+
+/* BREAKPOINT STYLING 1000px*/
+/* BREAKPOINT STYLING 1000px*/
+/* BREAKPOINT STYLING 1000px*/
+          @media (min-width: 1000px) {
+                .banner {
+                      height: 550px;
+                      background-size: 1150px;
+                }
+
+                .about img {
+                      margin: 10px auto 0 auto;
+                }
+
+                .personalitykeys, .competenceskeys {
+                      display: grid;
+                      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+                }
+          }
+
+/* BREAKPOINT STYLING 1150px*/
+/* BREAKPOINT STYLING 1150px*/
+/* BREAKPOINT STYLING 1150px*/
+          @media (min-width: 1150px) {
+                .workall {
+                      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+                }
+
+                .splitinthree {
+                      grid-template-columns: 1fr 1fr 1fr;
+                }
+          }
+
+  /* BREAKPOINT STYLING 1350px*/
+  /* BREAKPOINT STYLING 1350px*/
+  /* BREAKPOINT STYLING 1350px*/
+            @media (min-width: 1350px) {
+                  .workall {
+                        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+                  }
+            }
+
+
+/* ANIMATIE UNDERLINE STYLING*/
+/* ANIMATIE UNDERLINE STYLING*/
+/* ANIMATIE UNDERLINE STYLING*/
+          .underline:after {
+                content: '';
+                display: inline-block;
+                height: 2px;
+                width: 0px;
+                background: transparent;
+                transition: width .5s ease, background-color .5s ease;
+          }
+
+          .underline:hover:after {
+                width: 25px;
+                background: white;
+          }
+
+/* ANIMATIE GROW STYLING*/
+/* ANIMATIE GROW STYLING*/
+/* ANIMATIE GROW STYLING*/
+          .grow {
+                transform: perspective(1px) translateZ(0);
+                transition-duration: 0.4s;
+                transition-property: transform;
+          }
+
+          .grow:hover {
+                transform: scale(1.25);
+          }
+
+          .grow2 {
+                transform: perspective(1) translateZ(0);
+                transition-duration: 0.4s;
+                transition-property: transform;
+          }
+
+          .grow2:hover {
+                transform: scale(1.05);
+          }
+
+          .grow3 {
+                transform: perspective(1) translateZ(0);
+                transition-duration: 0.3s;
+                transition-property: transform;
+          }
+
+          .grow3:hover {
+                transform: scale(1.10);
+          }
+
+/* ANIMATIE SHAKE STYLING*/
+/* ANIMATIE SHAKE STYLING*/
+/* ANIMATIE SHAKE STYLING*/
+          @keyframes shake {
+            16.65% {
+              -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+            }
+            33.3% {
+              -webkit-transform: translateX(-6px);
+              transform: translateX(-6px);
+            }
+            49.95% {
+              -webkit-transform: translateX(4px);
+              transform: translateX(4px);
+            }
+            66.6% {
+              -webkit-transform: translateX(-2px);
+              transform: translateX(-2px);
+            }
+            83.25% {
+              -webkit-transform: translateX(1px);
+              transform: translateX(1px);
+            }
+            100% {
+              -webkit-transform: translateX(0);
+              transform: translateX(0);
+            }
+          }
+          .artistlogo img {
+            transform: perspective(1px) translateZ(0);
+          }
+          .about img:hover, .about img:focus, .about img:active {
+            animation-name: shake;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 1;
+          }
