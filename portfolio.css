@@ -182,7 +182,7 @@
                 width: 100%;
           }
 
-          .workelement img {
+          .workelement img, .workelement video {
                 width: 100%;
           }
 
@@ -218,7 +218,7 @@
                 text-decoration: underline;
           }
 
-          .nomex {
+          .margin {
                 margin-bottom: 15px;
           }
 
